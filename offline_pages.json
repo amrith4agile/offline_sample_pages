@@ -1,272 +1,196 @@
-
 [
-  {
-    "transid": "emp_basic",
-    "caption": "Employee Basic Info",
-    "visible": true,
-    "attachments": false,
-    "fields": [
-      {
-        "order": "1",
-        "fld_name": "emp_name",
-        "fld_caption": "Employee Name",
-        "fld_type": "c",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": ""
-      },
-      {
-        "order": "2",
-        "fld_name": "emp_age",
-        "fld_caption": "Age",
-        "fld_type": "n",
-        "data_type": "n",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": ""
-      },
-      {
-        "order": "3",
-        "fld_name": "emp_dept",
-        "fld_caption": "Department",
-        "fld_type": "dd",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": "",
-        "datasource": "DS_DEPT"
-      },
-      {
-        "order": "4",
-        "fld_name": "emp_gender",
-        "fld_caption": "Gender",
-        "fld_type": "rb",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": "",
-        "datasource": "DS_GENDER"
-      },
-      {
-        "order": "5",
-        "fld_name": "emp_skills",
-        "fld_caption": "Skills",
-        "fld_type": "cl",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "T",
-        "def_value": "",
-        "datasource": "DS_SKILLS"
-      },
-      {
-        "order": "6",
-        "fld_name": "emp_doj",
-        "fld_caption": "Date of Joining",
-        "fld_type": "d",
-        "data_type": "d",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": ""
-      },
-      {
-        "order": "7",
-        "fld_name": "emp_notes",
-        "fld_caption": "Notes",
-        "fld_type": "m",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "T",
-        "def_value": ""
-      }
-    ]
-  },
-  {
-    "transid": "project_alloc",
-    "caption": "Project Allocation",
-    "visible": true,
-    "attachments": false,
-    "fields": [
-      {
-        "order": "1",
-        "fld_name": "project",
-        "fld_caption": "Project",
-        "fld_type": "dd",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": "",
-        "datasource": "DS_PROJECT"
-      },
-      {
-        "order": "2",
-        "fld_name": "role",
-        "fld_caption": "Role",
-        "fld_type": "rb",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": "",
-        "datasource": "DS_ROLE"
-      },
-      {
-        "order": "3",
-        "fld_name": "experience",
-        "fld_caption": "Experience (Years)",
-        "fld_type": "n",
-        "data_type": "n",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": ""
-      },
-      {
-        "order": "4",
-        "fld_name": "tools",
-        "fld_caption": "Tools Used",
-        "fld_type": "cl",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "T",
-        "def_value": "",
-        "datasource": "DS_TOOLS"
-      },
-      {
-        "order": "5",
-        "fld_name": "start_date",
-        "fld_caption": "Start Date",
-        "fld_type": "d",
-        "data_type": "d",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": ""
-      },
-      {
-        "order": "6",
-        "fld_name": "remarks",
-        "fld_caption": "Remarks",
-        "fld_type": "m",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "T",
-        "def_value": ""
-      },
-      {
-        "order": "7",
-        "fld_name": "billable",
-        "fld_caption": "Billable",
-        "fld_type": "cb",
-        "data_type": "b",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "T",
-        "def_value": "false"
-      }
-    ]
-  },
-  {
-    "transid": "image_test",
-    "caption": "Image Upload Test",
-    "visible": true,
-    "attachments": true,
-    "fields": [
-      {
-        "order": "1",
-        "fld_name": "camera_only",
-        "fld_caption": "Camera Only",
-        "fld_type": "image",
-        "data_type": "d",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": "",
-        "is_camera": "T",
-        "is_gallery": "F"
-      },
-      {
-        "order": "2",
-        "fld_name": "gallery_only",
-        "fld_caption": "Gallery Only",
-        "fld_type": "image",
-        "data_type": "d",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": "",
-        "is_camera": "F",
-        "is_gallery": "T"
-      },
-      {
-        "order": "3",
-        "fld_name": "both",
-        "fld_caption": "Camera & Gallery",
-        "fld_type": "image",
-        "data_type": "d",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": "",
-        "is_camera": "T",
-        "is_gallery": "T"
-      },
-      {
-        "order": "4",
-        "fld_name": "doc_type",
-        "fld_caption": "Document Type",
-        "fld_type": "dd",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": "",
-        "datasource": "DS_DOC_TYPE"
-      },
-      {
-        "order": "5",
-        "fld_name": "visibility",
-        "fld_caption": "Visibility",
-        "fld_type": "rb",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": "",
-        "datasource": "DS_VISIBILITY"
-      },
-      {
-        "order": "6",
-        "fld_name": "remarks",
-        "fld_caption": "Remarks",
-        "fld_type": "m",
-        "data_type": "s",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "T",
-        "def_value": ""
-      },
-      {
-        "order": "7",
-        "fld_name": "agree",
-        "fld_caption": "Agree",
-        "fld_type": "cb",
-        "data_type": "b",
-        "hidden": "F",
-        "readonly": "F",
-        "allowempty": "F",
-        "def_value": "false"
-      }
-    ]
-  }
-]
+    {
+      "transid": "temp1",
+      "caption": "Temp Form",
+      "visible": true,
+      "attachments": true,
+      "fields": [
+        {
+          "order": "1",
+          "fld_name": "char_field",
+          "fld_caption": "Character Field",
+          "fld_type": "c",
+          "data_type": "s",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": "default text"
+        },
+        {
+          "order": "2",
+          "fld_name": "numeric_field",
+          "fld_caption": "Numeric Field",
+          "fld_type": "n",
+          "data_type": "n",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": "0"
+        },
+        {
+          "order": "3",
+          "fld_name": "dropdown_field",
+          "fld_caption": "Dropdown Field",
+          "fld_type": "dd",
+          "data_type": "s",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": "option2",
+          "datasource": "DS_F3"
+        }
+      ]
+    },
+    {
+      "transid": "temp2",
+      "caption": "Second Form",
+      "visible": true,
+      "attachments": false,
+      "fields": [
+        {
+          "order": "1",
+          "fld_name": "char_field",
+          "fld_caption": "Character Field",
+          "fld_type": "c",
+          "data_type": "s",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": "default text"
+        },
+        {
+          "order": "2",
+          "fld_name": "numeric_field",
+          "fld_caption": "Numeric Field",
+          "fld_type": "n",
+          "data_type": "n",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": "0"
+        }
+      ]
+    },
+    {
+      "transid": "temp3",
+      "caption": "Selection & Boolean Test",
+      "visible": true,
+      "attachments": false,
+      "fields": [
+        {
+          "order": "1",
+          "fld_name": "accept_terms",
+          "fld_caption": "Accept Terms",
+          "fld_type": "cb",
+          "data_type": "b",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": "false"
+        },
+        {
+          "order": "2",
+          "fld_name": "skills",
+          "fld_caption": "Skills",
+          "fld_type": "cl",
+          "data_type": "s",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": "",
+          "datasource": "DS_SKILLS"
+        },
+        {
+          "fld_name": "gender",
+          "order": "3",
+          "fld_caption": "Gender",
+          "fld_type": "rb",
+          "data_type": "s",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": "",
+          "datasource": "DS_GENDER"
+        }
+        
+      ],
+      
+    },
+    {
+      "transid": "temp4",
+      "caption": "Date & Memo Test",
+      "visible": true,
+      "attachments": true,
+      "fields": [
+        {
+          "order": "1",
+          "fld_name": "dob",
+          "fld_caption": "Date of Birth",
+          "fld_type": "d",
+          "data_type": "d",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": ""
+        },
+        {
+          "order": "2",
+          "fld_name": "remarks",
+          "fld_caption": "Remarks",
+          "fld_type": "m",
+          "data_type": "s",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "T",
+          "def_value": ""
+        }
+      ]
+    },
+    {
+      "transid": "temp5",
+      "caption": "Image Test",
+      "visible": true,
+      "attachments": true,
+      "fields": [
+        {
+          "order": "1",
+          "fld_name": "co",
+          "fld_caption": "From Camera",
+          "fld_type": "image",
+          "is_camera": "T",
+          "is_gallery": "F",
+          "data_type": "d",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": ""
+        },
+        {
+          "order": "2",
+          "fld_name": "go",
+          "fld_caption": "From Gallery",
+          "fld_type": "image",
+          "is_camera": "F",
+          "is_gallery": "T",
+          "data_type": "d",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": ""
+        },
+        {
+          "order": "3",
+          "fld_name": "bo",
+          "fld_caption": "Both Options",
+          "fld_type": "image",
+          "is_camera": "T",
+          "is_gallery": "T",
+          "data_type": "d",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
+          "def_value": ""
+        },
+      ]
+    }
+  ]
