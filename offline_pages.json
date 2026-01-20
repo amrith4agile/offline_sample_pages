@@ -190,5 +190,14 @@
         "def_value": ""
       }
     ]
-  }
+  },
+  {
+  "transid": "inward_entry",
+  "caption": "Inward Entry",
+  "visible": true,
+  "attachments": true,
+  "formType": "INWARD",
+  "fields": []
+}
+
 ]
