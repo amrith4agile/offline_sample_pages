@@ -37,7 +37,7 @@
         "readonly": "F",
         "allowempty": "F",
         "def_value": "option2",
-        "datasource": "DS_F3"
+        "datasource": "ds_inwardentry_s2district"
       }
     ]
   },
