@@ -232,7 +232,7 @@
         "data_type": "d",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "T"
       },
       {
         "order": "4",
@@ -281,7 +281,7 @@
         "data_type": "s",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F",
+        "allowempty": "T",
         "datasource": "ds_inwardentry_s1state"
       },
       {
@@ -294,7 +294,7 @@
         "data_type": "s",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F",
+        "allowempty": "T",
         "datasource": "ds_inwardentry_s2district"
       },
       {
@@ -307,7 +307,7 @@
         "data_type": "s",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "T"
       },
       {
         "order": "10",
@@ -319,7 +319,7 @@
         "data_type": "d",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "T"
       },
       {
         "order": "11",
@@ -331,7 +331,7 @@
         "data_type": "t",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "T"
       },
       {
         "order": "12",
@@ -343,7 +343,7 @@
         "data_type": "d",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "T"
       },
       {
         "order": "13",
@@ -355,7 +355,7 @@
         "data_type": "t",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "T"
       },
       {
         "order": "14",
@@ -367,7 +367,7 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "T"
       },
       {
         "order": "15",
@@ -379,7 +379,7 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "T"
       },
       {
         "order": "16",
@@ -391,7 +391,7 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "T",
-        "allowempty": "F"
+        "allowempty": "T"
       },
       {
         "order": "17",
@@ -442,7 +442,7 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "T"
       },
       {
         "order": "21",
@@ -490,7 +490,7 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "T"
       }
     ],
     "fillgrids": {
