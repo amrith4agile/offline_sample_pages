@@ -191,334 +191,376 @@
       }
     ]
   },
-{
-  "transid": "inward_entry",
-  "caption": "Inward Entry",
-  "visible": true,
-  "attachments": true,
-
-  "fields": [
-    {
-      "order": "1",
-      "fld_category": "Basic Info",
-      "fld_name": "unit",
-      "api_key": "unit",
-      "fld_caption": "Unit",
-      "fld_type": "dd",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F",
-      "datasource": "ds_inwardentry_unit"
-    },
-    {
-      "order": "2",
-      "fld_category": "Basic Info",
-      "fld_name": "ubGeNo",
-      "api_key": "ub_ge_no",
-      "fld_caption": "UB G.E No",
-      "fld_type": "c",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "3",
-      "fld_category": "Basic Info",
-      "fld_name": "receiptDateTime",
-      "api_key": "receipt_date_time",
-      "fld_caption": "Receipt Date Time",
-      "fld_type": "date",
-      "data_type": "d",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "4",
-      "fld_category": "Basic Info",
-      "fld_name": "vehicleNo",
-      "api_key": "vehicle_no",
-      "fld_caption": "Vehicle No",
-      "fld_type": "c",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "5",
-      "fld_category": "Basic Info",
-      "fld_name": "s1Dc",
-      "api_key": "s1_dc",
-      "fld_caption": "S1 DC",
-      "fld_type": "c",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-
-    {
-      "order": "6",
-      "fld_category": "Supplier",
-      "fld_name": "s1Name",
-      "api_key": "s1_name",
-      "fld_caption": "S1 Name",
-      "fld_type": "dd",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F",
-      "datasource": "ds_inwardentry_s1name"
-    },
-    {
-      "order": "7",
-      "fld_category": "Supplier",
-      "fld_name": "s1State",
-      "api_key": "state",
-      "fld_caption": "S1 State",
-      "fld_type": "dd",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F",
-      "datasource": "ds_inwardentry_s1state"
-    },
-    {
-      "order": "8",
-      "fld_category": "Supplier",
-      "fld_name": "s2District",
-      "api_key": "s2_district",
-      "fld_caption": "S2 District",
-      "fld_type": "dd",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F",
-      "datasource": "ds_inwardentry_s2district"
-    },
-    {
-      "order": "9",
-      "fld_category": "Supplier",
-      "fld_name": "s2Name",
-      "api_key": "s2_name",
-      "fld_caption": "S2 Name",
-      "fld_type": "c",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-
-    {
-      "order": "10",
-      "fld_category": "Timing",
-      "fld_name": "entryDate",
-      "api_key": "entry_date_time",
-      "fld_caption": "Entry Date",
-      "fld_type": "date",
-      "data_type": "d",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "11",
-      "fld_category": "Timing",
-      "fld_name": "entryTime",
-      "api_key": "entry_date_time",
-      "fld_caption": "Entry Time",
-      "fld_type": "time",
-      "data_type": "t",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "12",
-      "fld_category": "Timing",
-      "fld_name": "exitDate",
-      "api_key": "exit_date_time",
-      "fld_caption": "Exit Date",
-      "fld_type": "date",
-      "data_type": "d",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "13",
-      "fld_category": "Timing",
-      "fld_name": "exitTime",
-      "api_key": "exit_date_time",
-      "fld_caption": "Exit Time",
-      "fld_type": "time",
-      "data_type": "t",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-
-    {
-      "order": "14",
-      "fld_category": "Weight",
-      "fld_name": "loadedWeight",
-      "api_key": "loaded_truck",
-      "fld_caption": "Loaded Truck (Tonne)",
-      "fld_type": "n",
-      "data_type": "n",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "15",
-      "fld_category": "Weight",
-      "fld_name": "emptyWeight",
-      "api_key": "empty_truck",
-      "fld_caption": "Empty Truck (Tonne)",
-      "fld_type": "n",
-      "data_type": "n",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "16",
-      "fld_category": "Weight",
-      "fld_name": "netWeight",
-      "api_key": "netweight",
-      "fld_caption": "Net Weight",
-      "fld_type": "n",
-      "data_type": "n",
-      "hidden": "F",
-      "readonly": "T",
-      "allowempty": "F"
-    },
-
-    {
-      "order": "17",
-      "fld_category": "Bottle",
-      "fld_name": "bottleType",
-      "api_key": "bottle_type",
-      "fld_caption": "Bottle Type",
-      "fld_type": "dd",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F",
-      "datasource": "ds_inwardentry_bottletype"
-    },
-    {
-      "order": "18",
-      "fld_category": "Bottle",
-      "fld_name": "bottleCapacity",
-      "api_key": "bottle_capacity",
-      "fld_caption": "Bottle Capacity",
-      "fld_type": "dd",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F",
-      "datasource": "ds_inwardentry_bottlecapacity"
-    },
-    {
-      "order": "19",
-      "fld_category": "Bottle",
-      "fld_name": "packingType",
-      "api_key": "packing",
-      "fld_caption": "Packing Type",
-      "fld_type": "dd",
-      "data_type": "s",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F",
-      "datasource": "ds_inwardentry_packingtype"
-    },
-    {
-      "order": "20",
-      "fld_category": "Bottle",
-      "fld_name": "bottlePerPacking",
-      "api_key": "btlper_bag_crate",
-      "fld_caption": "Bottle Per Packing Type",
-      "fld_type": "n",
-      "data_type": "n",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-
-    {
-      "order": "21",
-      "fld_category": "Quantity",
-      "fld_name": "billed",
-      "api_key": "billed_qty_bags_crates",
-      "fld_caption": "Billed",
-      "fld_type": "n",
-      "data_type": "n",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "22",
-      "fld_category": "Quantity",
-      "fld_name": "received",
-      "api_key": "received_bags_crates",
-      "fld_caption": "Received",
-      "fld_type": "n",
-      "data_type": "n",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "23",
-      "fld_category": "Quantity",
-      "fld_name": "bagsToSample",
-      "api_key": "bags_sample",
-      "fld_caption": "Bags To Sample",
-      "fld_type": "n",
-      "data_type": "n",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    },
-    {
-      "order": "24",
-      "fld_category": "Quantity",
-      "fld_name": "shortage",
-      "api_key": "short_bags",
-      "fld_caption": "Shortage",
-      "fld_type": "n",
-      "data_type": "n",
-      "hidden": "F",
-      "readonly": "F",
-      "allowempty": "F"
-    }
-  ],
-
-  "fillgrids": {
-    "grid_id": "sample_bags",
-    "caption": "Sample Bag Details",
+  {
+    "transid": "inward_entry",
+    "caption": "Inward Entry",
+    "visible": true,
+    "attachments": true,
     "fields": [
-      { "fld_name": "broken", "api_key": "broken", "fld_type": "n", "data_type": "n", "def_value": "0" },
-      { "fld_name": "neck_chip", "api_key": "neck_chip", "fld_type": "n", "data_type": "n", "def_value": "0" },
-      { "fld_name": "extra_dirty", "api_key": "extra_dirty", "fld_type": "n", "data_type": "n", "def_value": "0" },
-      { "fld_name": "short", "api_key": "short", "fld_type": "n", "data_type": "n", "def_value": "0" },
-      { "fld_name": "other_brand", "api_key": "other_brand", "fld_type": "n", "data_type": "n", "def_value": "0" },
-      { "fld_name": "other_kf", "api_key": "other_kf", "fld_type": "n", "data_type": "n", "def_value": "0" },
-      { "fld_name": "torn_bags", "api_key": "torn_bags", "fld_type": "n", "data_type": "n", "def_value": "0" },
-      { "fld_name": "maf_date", "api_key": "tat_mfg_date", "fld_type": "date", "data_type": "d", "def_value": "" },
-      { "fld_name": "maf_year", "api_key": "mng_year", "fld_type": "year", "data_type": "n", "def_value": "" }
-    ]
+      {
+        "order": "1",
+        "fld_category": "Basic Info",
+        "fld_name": "unit",
+        "api_key": "unit",
+        "fld_caption": "Unit",
+        "fld_type": "dd",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F",
+        "datasource": "ds_inwardentry_unit"
+      },
+      {
+        "order": "2",
+        "fld_category": "Basic Info",
+        "fld_name": "ubGeNo",
+        "api_key": "ub_ge_no",
+        "fld_caption": "UB G.E No",
+        "fld_type": "c",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "3",
+        "fld_category": "Basic Info",
+        "fld_name": "receiptDateTime",
+        "api_key": "receipt_date_time",
+        "fld_caption": "Receipt Date Time",
+        "fld_type": "date",
+        "data_type": "d",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "4",
+        "fld_category": "Basic Info",
+        "fld_name": "vehicleNo",
+        "api_key": "vehicle_no",
+        "fld_caption": "Vehicle No",
+        "fld_type": "c",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "5",
+        "fld_category": "Basic Info",
+        "fld_name": "s1Dc",
+        "api_key": "s1_dc",
+        "fld_caption": "S1 DC",
+        "fld_type": "c",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "6",
+        "fld_category": "Supplier",
+        "fld_name": "s1Name",
+        "api_key": "s1_name",
+        "fld_caption": "S1 Name",
+        "fld_type": "dd",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F",
+        "datasource": "ds_inwardentry_s1name"
+      },
+      {
+        "order": "7",
+        "fld_category": "Supplier",
+        "fld_name": "s1State",
+        "api_key": "state",
+        "fld_caption": "S1 State",
+        "fld_type": "dd",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F",
+        "datasource": "ds_inwardentry_s1state"
+      },
+      {
+        "order": "8",
+        "fld_category": "Supplier",
+        "fld_name": "s2District",
+        "api_key": "s2_district",
+        "fld_caption": "S2 District",
+        "fld_type": "dd",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F",
+        "datasource": "ds_inwardentry_s2district"
+      },
+      {
+        "order": "9",
+        "fld_category": "Supplier",
+        "fld_name": "s2Name",
+        "api_key": "s2_name",
+        "fld_caption": "S2 Name",
+        "fld_type": "c",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "10",
+        "fld_category": "Timing",
+        "fld_name": "entryDate",
+        "api_key": "entry_date_time",
+        "fld_caption": "Entry Date",
+        "fld_type": "date",
+        "data_type": "d",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "11",
+        "fld_category": "Timing",
+        "fld_name": "entryTime",
+        "api_key": "entry_date_time",
+        "fld_caption": "Entry Time",
+        "fld_type": "time",
+        "data_type": "t",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "12",
+        "fld_category": "Timing",
+        "fld_name": "exitDate",
+        "api_key": "exit_date_time",
+        "fld_caption": "Exit Date",
+        "fld_type": "date",
+        "data_type": "d",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "13",
+        "fld_category": "Timing",
+        "fld_name": "exitTime",
+        "api_key": "exit_date_time",
+        "fld_caption": "Exit Time",
+        "fld_type": "time",
+        "data_type": "t",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "14",
+        "fld_category": "Weight",
+        "fld_name": "loadedWeight",
+        "api_key": "loaded_truck",
+        "fld_caption": "Loaded Truck (Tonne)",
+        "fld_type": "n",
+        "data_type": "n",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "15",
+        "fld_category": "Weight",
+        "fld_name": "emptyWeight",
+        "api_key": "empty_truck",
+        "fld_caption": "Empty Truck (Tonne)",
+        "fld_type": "n",
+        "data_type": "n",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "16",
+        "fld_category": "Weight",
+        "fld_name": "netWeight",
+        "api_key": "netweight",
+        "fld_caption": "Net Weight",
+        "fld_type": "n",
+        "data_type": "n",
+        "hidden": "F",
+        "readonly": "T",
+        "allowempty": "F"
+      },
+      {
+        "order": "17",
+        "fld_category": "Bottle",
+        "fld_name": "bottleType",
+        "api_key": "bottle_type",
+        "fld_caption": "Bottle Type",
+        "fld_type": "dd",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F",
+        "datasource": "ds_inwardentry_bottletype"
+      },
+      {
+        "order": "18",
+        "fld_category": "Bottle",
+        "fld_name": "bottleCapacity",
+        "api_key": "bottle_capacity",
+        "fld_caption": "Bottle Capacity",
+        "fld_type": "dd",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F",
+        "datasource": "ds_inwardentry_bottlecapacity"
+      },
+      {
+        "order": "19",
+        "fld_category": "Bottle",
+        "fld_name": "packingType",
+        "api_key": "packing",
+        "fld_caption": "Packing Type",
+        "fld_type": "dd",
+        "data_type": "s",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F",
+        "datasource": "ds_inwardentry_packingtype"
+      },
+      {
+        "order": "20",
+        "fld_category": "Bottle",
+        "fld_name": "bottlePerPacking",
+        "api_key": "btlper_bag_crate",
+        "fld_caption": "Bottle Per Packing Type",
+        "fld_type": "n",
+        "data_type": "n",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "21",
+        "fld_category": "Quantity",
+        "fld_name": "billed",
+        "api_key": "billed_qty_bags_crates",
+        "fld_caption": "Billed",
+        "fld_type": "n",
+        "data_type": "n",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "22",
+        "fld_category": "Quantity",
+        "fld_name": "received",
+        "api_key": "received_bags_crates",
+        "fld_caption": "Received",
+        "fld_type": "n",
+        "data_type": "n",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "23",
+        "fld_category": "Quantity",
+        "fld_name": "bagsToSample",
+        "api_key": "bags_sample",
+        "fld_caption": "Bags To Sample",
+        "fld_type": "n",
+        "data_type": "n",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      },
+      {
+        "order": "24",
+        "fld_category": "Quantity",
+        "fld_name": "shortage",
+        "api_key": "short_bags",
+        "fld_caption": "Shortage",
+        "fld_type": "n",
+        "data_type": "n",
+        "hidden": "F",
+        "readonly": "F",
+        "allowempty": "F"
+      }
+    ],
+    "fillgrids": {
+      "grid_id": "sample_bags",
+      "caption": "Sample Bag Details",
+      "fields": [
+        {
+          "fld_name": "broken",
+          "api_key": "broken",
+          "fld_type": "n",
+          "data_type": "n",
+          "def_value": "0"
+        },
+        {
+          "fld_name": "neck_chip",
+          "api_key": "neck_chip",
+          "fld_type": "n",
+          "data_type": "n",
+          "def_value": "0"
+        },
+        {
+          "fld_name": "extra_dirty",
+          "api_key": "extra_dirty",
+          "fld_type": "n",
+          "data_type": "n",
+          "def_value": "0"
+        },
+        {
+          "fld_name": "short",
+          "api_key": "short",
+          "fld_type": "n",
+          "data_type": "n",
+          "def_value": "0"
+        },
+        {
+          "fld_name": "other_brand",
+          "api_key": "other_brand",
+          "fld_type": "n",
+          "data_type": "n",
+          "def_value": "0"
+        },
+        {
+          "fld_name": "other_kf",
+          "api_key": "other_kf",
+          "fld_type": "n",
+          "data_type": "n",
+          "def_value": "0"
+        },
+        {
+          "fld_name": "torn_bags",
+          "api_key": "torn_bags",
+          "fld_type": "n",
+          "data_type": "n",
+          "def_value": "0"
+        },
+        {
+          "fld_name": "maf_date",
+          "api_key": "tat_mfg_date",
+          "fld_type": "date",
+          "data_type": "d",
+          "def_value": ""
+        },
+        {
+          "fld_name": "maf_year",
+          "api_key": "mng_year",
+          "fld_type": "year",
+          "data_type": "n",
+          "def_value": ""
+        }
+      ]
+    }
   }
-}
-
-
-}
-
-
 ]
