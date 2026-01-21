@@ -397,7 +397,7 @@
         "order": "17",
         "fld_category": "Bottle",
         "fld_name": "bottleType",
-        "api_key": "bottle_type",
+        "api_key": "bottle_type_n",
         "fld_caption": "Bottle Type",
         "fld_type": "dd",
         "data_type": "s",
