@@ -269,7 +269,7 @@
         "hidden": "F",
         "readonly": "F",
         "allowempty": "F",
-        "datasource": "ds_inwardentry_s1name"
+        "datasource": "ds_inwardentry_supplierdtls"
       },
       {
         "order": "7",
@@ -282,7 +282,7 @@
         "hidden": "F",
         "readonly": "F",
         "allowempty": "T",
-        "datasource": "ds_inwardentry_s1state",
+        "datasource": "ds_inwardentry_supplierdtls",
         "dep_field": ["s1_name"]
       },
       {
@@ -296,7 +296,7 @@
         "hidden": "F",
         "readonly": "F",
         "allowempty": "T",
-        "datasource": "ds_inwardentry_s2district",
+        "datasource": "ds_inwardentry_supplierdtls",
         "dep_field": ["s1_name","state"]
       },
       {
