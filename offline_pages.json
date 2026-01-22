@@ -282,7 +282,8 @@
         "hidden": "F",
         "readonly": "F",
         "allowempty": "T",
-        "datasource": "ds_inwardentry_s1state"
+        "datasource": "ds_inwardentry_s1state",
+        "dep_field": ["s1_name"]
       },
       {
         "order": "8",
@@ -295,7 +296,8 @@
         "hidden": "F",
         "readonly": "F",
         "allowempty": "T",
-        "datasource": "ds_inwardentry_s2district"
+        "datasource": "ds_inwardentry_s2district",
+        "dep_field": ["s1_name","state"]
       },
       {
         "order": "9",
