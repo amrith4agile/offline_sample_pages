@@ -228,6 +228,7 @@
         "fld_caption": "Receipt Date Time",
         "fld_type": "datetime",
         "data_type": "dt",
+        "datetime_format":"dd/MM/yyyy h:mm:ss a",
         "hidden": "F",
         "readonly": "T",
         "allowempty": "T"
@@ -309,6 +310,7 @@
         "fld_name": "entry_date",
         "fld_caption": "Entry Date",
         "fld_type": "date",
+        "datetime_format":"dd/MM/yyyy",
         "data_type": "d",
         "hidden": "F",
         "readonly": "F",
@@ -321,6 +323,7 @@
         "fld_caption": "Entry Time",
         "fld_type": "time",
         "data_type": "t",
+        "datetime_format":"h:mm a",
         "hidden": "F",
         "readonly": "F",
         "allowempty": "T"
@@ -332,6 +335,7 @@
         "fld_caption": "Exit Date",
         "fld_type": "date",
         "data_type": "d",
+        "datetime_format":"dd/MM/yyyy",
         "hidden": "F",
         "readonly": "F",
         "allowempty": "T"
@@ -343,6 +347,7 @@
         "fld_caption": "Exit Time",
         "fld_type": "time",
         "data_type": "t",
+        "datetime_format":"h:mm a",
         "hidden": "F",
         "readonly": "F",
         "allowempty": "T"
