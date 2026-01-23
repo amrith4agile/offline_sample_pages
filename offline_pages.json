@@ -226,8 +226,8 @@
         "fld_category": "Basic Info",
         "fld_name": "receipt_date_time",
         "fld_caption": "Receipt Date Time",
-        "fld_type": "date",
-        "data_type": "d",
+        "fld_type": "datetime",
+        "data_type": "dt",
         "hidden": "F",
         "readonly": "F",
         "allowempty": "T"
