@@ -229,7 +229,7 @@
         "fld_type": "datetime",
         "data_type": "dt",
         "hidden": "F",
-        "readonly": "F",
+        "readonly": "T",
         "allowempty": "T"
       },
       {
