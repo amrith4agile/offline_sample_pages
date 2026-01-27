@@ -4,6 +4,7 @@
     "caption": "Inward Entry",
     "visible": true,
     "attachments": true,
+    "force_offline":true,
     "fields": [
       {
         "order": "1",
