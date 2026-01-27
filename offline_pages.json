@@ -1,5 +1,4 @@
 [
-  
   {
     "transid": "inward_entry",
     "caption": "Inward Entry",
@@ -16,7 +15,9 @@
         "hidden": "F",
         "readonly": "F",
         "allowempty": "F",
-        "datasource": "ds_inwardentry_unit"
+        "datasource": "ds_inwardentry_unit",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "2",
@@ -27,7 +28,9 @@
         "data_type": "s",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "F",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "3",
@@ -36,10 +39,12 @@
         "fld_caption": "Receipt Date Time",
         "fld_type": "datetime",
         "data_type": "dt",
-        "datetime_format":"dd/MM/yyyy h:mm:ss a",
+        "datetime_format": "dd/MM/yyyy h:mm:ss a",
         "hidden": "F",
         "readonly": "T",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "4",
@@ -50,7 +55,9 @@
         "data_type": "s",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "F",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "5",
@@ -61,7 +68,9 @@
         "data_type": "s",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "F",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "6",
@@ -73,7 +82,9 @@
         "hidden": "F",
         "readonly": "F",
         "allowempty": "F",
-        "datasource": "ds_inwardentry_supplierdtls"
+        "datasource": "ds_inwardentry_supplierdtls",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "7",
@@ -86,7 +97,10 @@
         "readonly": "F",
         "allowempty": "T",
         "datasource": "ds_inwardentry_supplierdtls",
-        "dep_field": ["s1_name"]
+        "dep_field": [
+          "s1_name"
+        ],
+        "def_value": ""
       },
       {
         "order": "8",
@@ -99,7 +113,11 @@
         "readonly": "F",
         "allowempty": "T",
         "datasource": "ds_inwardentry_supplierdtls",
-        "dep_field": ["s1_name", "state"]
+        "dep_field": [
+          "s1_name",
+          "state"
+        ],
+        "def_value": ""
       },
       {
         "order": "9",
@@ -110,7 +128,9 @@
         "data_type": "s",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "10",
@@ -118,11 +138,13 @@
         "fld_name": "entry_date",
         "fld_caption": "Entry Date",
         "fld_type": "date",
-        "datetime_format":"dd/MM/yyyy",
+        "datetime_format": "dd/MM/yyyy",
         "data_type": "d",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "11",
@@ -131,10 +153,12 @@
         "fld_caption": "Entry Time",
         "fld_type": "time",
         "data_type": "t",
-        "datetime_format":"h:mm a",
+        "datetime_format": "h:mm a",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "12",
@@ -143,10 +167,12 @@
         "fld_caption": "Exit Date",
         "fld_type": "date",
         "data_type": "d",
-        "datetime_format":"dd/MM/yyyy",
+        "datetime_format": "dd/MM/yyyy",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "13",
@@ -155,10 +181,12 @@
         "fld_caption": "Exit Time",
         "fld_type": "time",
         "data_type": "t",
-        "datetime_format":"h:mm a",
+        "datetime_format": "h:mm a",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "14",
@@ -169,7 +197,9 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "15",
@@ -180,7 +210,9 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "16",
@@ -191,7 +223,9 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "T",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "17",
@@ -203,7 +237,9 @@
         "hidden": "F",
         "readonly": "F",
         "allowempty": "F",
-        "datasource": "ds_inwardentry_bottletype"
+        "datasource": "ds_inwardentry_bottletype",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "18",
@@ -215,7 +251,9 @@
         "hidden": "F",
         "readonly": "F",
         "allowempty": "F",
-        "datasource": "ds_inwardentry_bottlecapacity"
+        "datasource": "ds_inwardentry_bottlecapacity",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "19",
@@ -227,7 +265,9 @@
         "hidden": "F",
         "readonly": "F",
         "allowempty": "F",
-        "datasource": "ds_inwardentry_packingtype"
+        "datasource": "ds_inwardentry_packingtype",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "20",
@@ -238,7 +278,9 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "21",
@@ -249,7 +291,9 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "F",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "22",
@@ -260,7 +304,9 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "F",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "23",
@@ -271,7 +317,9 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "F"
+        "allowempty": "F",
+        "dep_field": [],
+        "def_value": ""
       },
       {
         "order": "24",
@@ -282,7 +330,9 @@
         "data_type": "n",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T"
+        "allowempty": "T",
+        "dep_field": [],
+        "def_value": ""
       }
     ],
     "fillgrids": {
@@ -293,58 +343,66 @@
           "fld_name": "broken",
           "fld_type": "n",
           "data_type": "n",
-          "def_value": "0"
+          "def_value": "0",
+          "dep_field": []
         },
         {
           "fld_name": "neck_chip",
           "fld_type": "n",
           "data_type": "n",
-          "def_value": "0"
+          "def_value": "0",
+          "dep_field": []
         },
         {
           "fld_name": "extra_dirty",
           "fld_type": "n",
           "data_type": "n",
-          "def_value": "0"
+          "def_value": "0",
+          "dep_field": []
         },
         {
           "fld_name": "short",
           "fld_type": "n",
           "data_type": "n",
-          "def_value": "0"
+          "def_value": "0",
+          "dep_field": []
         },
         {
           "fld_name": "other_brand",
           "fld_type": "n",
           "data_type": "n",
-          "def_value": "0"
+          "def_value": "0",
+          "dep_field": []
         },
         {
           "fld_name": "other_kf",
           "fld_type": "n",
           "data_type": "n",
-          "def_value": "0"
+          "def_value": "0",
+          "dep_field": []
         },
         {
           "fld_name": "torn_bags",
           "fld_type": "n",
           "data_type": "n",
-          "def_value": "0"
+          "def_value": "0",
+          "dep_field": []
         },
         {
           "fld_name": "tat_mfg_date",
           "fld_type": "date",
           "data_type": "d",
-          "def_value": ""
+          "def_value": "",
+          "dep_field": []
         },
         {
           "fld_name": "mng_year",
           "fld_type": "year",
           "data_type": "n",
-          "def_value": ""
+          "def_value": "",
+          "dep_field": []
         }
       ]
     }
   }
-
 ]
