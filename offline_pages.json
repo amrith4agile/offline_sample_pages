@@ -51,7 +51,7 @@
         "fld_category": "Basic Info",
         "fld_name": "vehicle_no",
         "fld_caption": "Vehicle No",
-        "fld_type": "c",
+        "fld_type": "c_upper",
         "data_type": "s",
         "hidden": "F",
         "readonly": "F",
