@@ -96,7 +96,7 @@
         "data_type": "s",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T",
+        "allowempty": "F",
         "datasource": "ds_inwardentry_supplierdtls",
         "dep_field": [
           "s1_name"
@@ -112,7 +112,7 @@
         "data_type": "s",
         "hidden": "F",
         "readonly": "F",
-        "allowempty": "T",
+        "allowempty": "F",
         "datasource": "ds_inwardentry_supplierdtls",
         "dep_field": [
           "s1_name",
