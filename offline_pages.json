@@ -1,11 +1,10 @@
 [
 {
-    "page_type": "iview",
-    "transid": "iinvrept",
-    "caption": "Inward Report",
- 
+   "page_type": "iview",
+   "transid": "iinvrept",
+   "caption": "Inward Report",
     "fields":[],
-    "visible": true ,
+   "visible": true ,
     "force_offline":true
   },
   {
