@@ -9,7 +9,7 @@
       {
         "order": "1",
         "fld_category": "Basic Info",
-        "fld_name": "unit",
+        "fld_name": "unit_name",
         "fld_caption": "Unit",
         "fld_type": "dd",
         "data_type": "s",
