@@ -3,9 +3,10 @@
     "page_type": "iview",
     "transid": "iinvrept",
     "caption": "Inward Report",
+ 
+    "fields":[],
     "visible": true ,
-  "fields":[],
-  "force_offline":true
+    "force_offline":true
   },
   {
         "page_type":"form",
