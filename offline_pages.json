@@ -1,10 +1,5 @@
 [
-{
-    "page_type": "iview",
-    "transid": "iinvrept",
-    "caption": "Inward Report",
-    "visible": true  
-  },
+
   {
         "page_type":"form",
     "transid": "inward_entry",
