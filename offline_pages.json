@@ -352,6 +352,7 @@
       "fields": [
         {
           "fld_name": "broken",
+         "fld_caption": "Broken",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
@@ -359,6 +360,7 @@
         },
         {
           "fld_name": "neck_chip",
+           "fld_caption": "Neck Chip",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
@@ -366,6 +368,7 @@
         },
         {
           "fld_name": "extra_dirty",
+           "fld_caption": "Extra Dirty",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
@@ -373,6 +376,7 @@
         },
         {
           "fld_name": "short",
+           "fld_caption": "Short",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
@@ -380,6 +384,7 @@
         },
         {
           "fld_name": "other_brand",
+           "fld_caption": "Other Brand",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
@@ -387,6 +392,7 @@
         },
         {
           "fld_name": "other_kf",
+           "fld_caption": "Other KF",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
@@ -394,6 +400,7 @@
         },
         {
           "fld_name": "torn_bags",
+           "fld_caption": "Torn Bags",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
@@ -401,6 +408,7 @@
         },
         {
           "fld_name": "tat_mfg_date",
+           "fld_caption": "TAT Mfg. Date",
           "fld_type": "date",
           "data_type": "d",
           "def_value": "",
@@ -408,10 +416,20 @@
         },
         {
           "fld_name": "mng_year",
+           "fld_caption": "Mfg.Year",
           "fld_type": "year",
           "data_type": "n",
           "def_value": "",
           "dep_field": []
+        },
+          {
+          "fld_name": "mfgstate",
+           "fld_caption": "Mfg.State",
+          "fld_type": "dd",
+          "data_type": "c",
+          "def_value": "",
+          "dep_field": [],
+         "datasource": "ds_mfgstate"
         }
       ]
     }
