@@ -5,7 +5,8 @@
    "caption": "Inward Report",
     "fields":[],
    "visible": true ,
-    "force_offline":true
+    "force_offline":true,
+
   },
   {
         "page_type":"form",
@@ -14,7 +15,7 @@
     "visible": true,
     "attachments": true,
     "force_offline":true,
-
+   "submit_data_publickey":"InwardEntry",
     "fields": [
       {
         "order": "1",
