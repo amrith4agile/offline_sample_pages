@@ -1,21 +1,20 @@
 [
-{
-   "page_type": "iview",
-   "transid": "iinvrept",
-   "caption": "Inward Report",
-    "fields":[],
-   "visible": true ,
-    "force_offline":true
-
+  {
+    "page_type": "iview",
+    "transid": "iinvrept",
+    "caption": "Inward Report",
+    "fields": [],
+    "visible": true,
+    "force_offline": true
   },
   {
-        "page_type":"form",
+    "page_type": "form",
     "transid": "inward_entry",
     "caption": "Inward Entry",
     "visible": true,
     "attachments": true,
-    "force_offline":true,
-   "submit_data_publickey":"InwardEntry",
+    "force_offline": true,
+    "submit_data_publickey": "InwardEntry",
     "fields": [
       {
         "order": "1",
@@ -353,84 +352,114 @@
       "fields": [
         {
           "fld_name": "broken",
-         "fld_caption": "Broken",
+          "fld_caption": "Broken",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "T",
           "dep_field": []
         },
         {
           "fld_name": "neck_chip",
-           "fld_caption": "Neck Chip",
+          "fld_caption": "Neck Chip",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "T",
           "dep_field": []
         },
         {
           "fld_name": "extra_dirty",
-           "fld_caption": "Extra Dirty",
+          "fld_caption": "Extra Dirty",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "T",
           "dep_field": []
         },
         {
           "fld_name": "short",
-           "fld_caption": "Short",
+          "fld_caption": "Short",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "T",
           "dep_field": []
         },
         {
           "fld_name": "other_brand",
-           "fld_caption": "Other Brand",
+          "fld_caption": "Other Brand",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "T",
           "dep_field": []
         },
         {
           "fld_name": "other_kf",
-           "fld_caption": "Other KF",
+          "fld_caption": "Other KF",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "T",
           "dep_field": []
         },
         {
           "fld_name": "torn_bags",
-           "fld_caption": "Torn Bags",
+          "fld_caption": "Torn Bags",
           "fld_type": "n",
           "data_type": "n",
           "def_value": "0",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "T",
           "dep_field": []
         },
         {
           "fld_name": "tat_mfg_date",
-           "fld_caption": "TAT Mfg. Date",
+          "fld_caption": "TAT Mfg. Date",
           "fld_type": "date",
           "data_type": "d",
           "def_value": "",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
           "dep_field": []
         },
         {
           "fld_name": "mng_year",
-           "fld_caption": "Mfg.Year",
+          "fld_caption": "Mfg.Year",
           "fld_type": "year",
           "data_type": "n",
           "def_value": "",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
           "dep_field": []
         },
-          {
+        {
           "fld_name": "mfgstate",
-           "fld_caption": "Mfg.State",
+          "fld_caption": "Mfg.State",
           "fld_type": "dd",
           "data_type": "c",
           "def_value": "",
+          "hidden": "F",
+          "readonly": "F",
+          "allowempty": "F",
           "dep_field": [],
-         "datasource": "ds_mfgstate"
+          "datasource": "ds_mfgstate"
         }
       ]
     }
