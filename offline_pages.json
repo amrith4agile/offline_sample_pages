@@ -347,7 +347,7 @@
       },
       {
         "order": "25",
-        "fld_category": "axm",
+        "fld_category": "",
         "fld_name": "axm_recordid",
         "fld_caption": "axm_recordid",
         "fld_type": "c",
