@@ -457,7 +457,7 @@
           "fld_type": "year",
           "data_type": "n",
           "def_value": "",
-          "hidden": "F",
+          "hidden": "T",
           "readonly": "F",
           "allowempty": "F",
           "dep_field": []
