@@ -354,7 +354,7 @@
         "data_type": "c",
         "hidden": "T",
         "readonly": "T",
-        "allowempty": "F",
+        "allowempty": "T",
         "dep_field": [],
         "def_value": ""
       },
