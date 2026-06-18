@@ -357,6 +357,19 @@
         "allowempty": "F",
         "dep_field": [],
         "def_value": ""
+      },
+      {
+        "order": "26",
+        "fld_category": "",
+        "fld_name": "abcd",
+        "fld_caption": "abcd",
+        "fld_type": "c",
+        "data_type": "c",
+        "hidden": "T",
+        "readonly": "T",
+        "allowempty": "F",
+        "dep_field": [],
+        "def_value": ""
       }
     ],
     "fillgrids": {
