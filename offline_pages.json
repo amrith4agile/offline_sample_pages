@@ -352,7 +352,7 @@
         "fld_caption": "axm_recordid",
         "fld_type": "c",
         "data_type": "c",
-        "hidden": "T",
+        "hidden": "F",
         "readonly": "T",
         "allowempty": "F",
         "dep_field": [],
