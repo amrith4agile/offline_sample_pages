@@ -344,33 +344,8 @@
         "allowempty": "T",
         "dep_field": [],
         "def_value": ""
-      },
-      {
-        "order": "25",
-        "fld_category": "",
-        "fld_name": "axm_recordid",
-        "fld_caption": "axm_recordid",
-        "fld_type": "c",
-        "data_type": "c",
-        "hidden": "T",
-        "readonly": "T",
-        "allowempty": "T",
-        "dep_field": [],
-        "def_value": ""
-      },
-      {
-        "order": "26",
-        "fld_category": "",
-        "fld_name": "abcd",
-        "fld_caption": "abcd",
-        "fld_type": "c",
-        "data_type": "c",
-        "hidden": "T",
-        "readonly": "T",
-        "allowempty": "T",
-        "dep_field": [],
-        "def_value": ""
       }
+
     ],
     "fillgrids": {
       "grid_id": "sample_bags",
