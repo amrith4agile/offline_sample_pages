@@ -1,3 +1,4 @@
 {
-  "sync_interval_minutes": 15
+  "sync_interval_minutes": 15,
+  "cached_batch_size": 50
 }
