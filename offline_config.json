@@ -1,6 +1,6 @@
 {
   "sync_interval_minutes": 15,
-  "cached_batch_size_pending_request": 500,
+  "cached_batch_size": 500,
   "cached_batch_size_audit_logs": 0,
   
 }
