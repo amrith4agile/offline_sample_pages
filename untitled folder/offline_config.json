@@ -1,0 +1,5 @@
+{
+  "sync_interval_minutes": 15,
+  "cached_batch_size": 30,
+  "cached_batch_size_audit_logs": 0
+}
