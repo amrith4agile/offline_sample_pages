@@ -464,5 +464,56 @@
         }
       ]
     }
-  }
+  },
+  {
+  "page_type": "form",
+  "transid": "axpgh",
+  "caption": "PG TEST",
+  "visible": true,
+  "attachments": true,
+  "force_offline": true,
+  "submit_data_publickey": "axputtest",
+  "fields": [
+    {
+      "order": "1",
+      "fld_category": "Basic Info",
+      "fld_name": "name",
+      "fld_caption": "Name",
+      "fld_type": "c",
+      "data_type": "s",
+      "hidden": "F",
+      "readonly": "F",
+      "allowempty": "F",
+      "datasource": "",
+      "dep_field": [],
+      "def_value": ""
+    },
+    {
+      "order": "2",
+      "fld_category": "Basic Info",
+      "fld_name": "age",
+      "fld_caption": "Age",
+      "fld_type": "n",
+      "data_type": "n",
+      "hidden": "F",
+      "readonly": "F",
+      "allowempty": "F",
+      "dep_field": [],
+      "def_value": ""
+    },
+    {
+      "order": "2",
+      "fld_category": "Basic Info",
+      "fld_name": "mobilenumber",
+      "fld_caption": "Mobile Number",
+      "fld_type": "n",
+      "data_type": "n",
+      "hidden": "F",
+      "readonly": "F",
+      "allowempty": "F",
+      "dep_field": [],
+      "def_value": ""
+    }
+  ]
+}
 ]
